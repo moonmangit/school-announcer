@@ -27,6 +27,8 @@ def playpattern(pattern_name, config):
         sound_path = config["sound"][sound]
         playsound(sound_path)
 
+
+#== start == 
 config = None 
 if not os.path.exists('config.json'):
     with open('config.json', 'w') as file:
@@ -63,8 +65,8 @@ while True:
     print(SingleTable(table_data).table)
 
     # check time to play pattern
-    if getTime("%H%M") == sorted_key[next]:
-        next = (next+1)%len(sorted_key)
+    if getTime("%H%M") == sorted_key[next]:#         
         pattern_name = config["table"][sorted_key[next]]
         playpattern(pattern_name, config)
+        next = (next+1)%len(sorted_key)
     time.sleep(1)
