@@ -1,0 +1,37 @@
+{
+    "sound": {
+        "annouce": "/home/moonman/Documents/Learning/python/00-simple-gui/sound/ann.mp3",
+        "current-time": "/home/moonman/Documents/Learning/python/00-simple-gui/sound/ct.mp3",
+        "6am": "/home/moonman/Documents/Learning/python/00-simple-gui/sound/6.mp3",
+        "9am": "/home/moonman/Documents/Learning/python/00-simple-gui/sound/9.mp3",
+        "10am": "/home/moonman/Documents/Learning/python/00-simple-gui/sound/10.mp3",
+        "30min": "/home/moonman/Documents/Learning/python/00-simple-gui/sound/30min.mp3",
+        "7am": "/home/moonman/Documents/Learning/python/00-simple-gui/sound/7.mp3"
+    },
+    "pattern": {
+        "6-call": [
+            "annouce",
+            "current-time",
+            "6am"
+        ],
+        "6-30-call": [
+            "annouce",
+            "current-time",
+            "6am",
+            "30min"
+        ],
+        "9-call": [
+            "current-time",
+            "9am"
+        ]
+    },
+    "table": {
+        "0630": "6-30-call",
+        "0400": "6-call",
+        "0300": "6-call",
+        "0500": "6-call",
+        "0000": "6-call",
+        "1225": "9-call",   
+        "1244": "6-call"
+    }
+}
