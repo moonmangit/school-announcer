@@ -1,17 +1,93 @@
 {
     "sound": {
-        "bass": "C:\\Users\\moonman\\Desktop\\pattern-auto-play\\sounds\\bass.mp3"
+        "ann": "C:\\Users\\moonman\\Desktop\\pattern-auto-play\\sounds\\annouce.mp3",
+        "currentTime": "C:\\Users\\moonman\\Desktop\\pattern-auto-play\\sounds\\current-time.mp3",
+        "onClass": "C:\\Users\\moonman\\Desktop\\pattern-auto-play\\sounds\\request-to-class.mp3",
+        "onBreak": "C:\\Users\\moonman\\Desktop\\pattern-auto-play\\sounds\\request-to-break.mp3",
+        "15min": "C:\\Users\\moonman\\Desktop\\pattern-auto-play\\sounds\\15min.mp3",
+        "30min": "C:\\Users\\moonman\\Desktop\\pattern-auto-play\\sounds\\30min.mp3",
+        "6am": "C:\\Users\\moonman\\Desktop\\pattern-auto-play\\sounds\\6am.mp3",
+        "7am": "C:\\Users\\moonman\\Desktop\\pattern-auto-play\\sounds\\7am.mp3",
+        "8am": "C:\\Users\\moonman\\Desktop\\pattern-auto-play\\sounds\\8am.mp3",
+        "9am": "C:\\Users\\moonman\\Desktop\\pattern-auto-play\\sounds\\9am.mp3",
+        "10am": "C:\\Users\\moonman\\Desktop\\pattern-auto-play\\sounds\\10am.mp3",
+        "11am": "C:\\Users\\moonman\\Desktop\\pattern-auto-play\\sounds\\11am.mp3",
+        "12pm": "C:\\Users\\moonman\\Desktop\\pattern-auto-play\\sounds\\12pm.mp3",
+        "13pm": "C:\\Users\\moonman\\Desktop\\pattern-auto-play\\sounds\\13pm.mp3",
+        "14pm": "C:\\Users\\moonman\\Desktop\\pattern-auto-play\\sounds\\14pm.mp3",
+        "15pm": "C:\\Users\\moonman\\Desktop\\pattern-auto-play\\sounds\\15pm.mp3",
+        "16pm": "C:\\Users\\moonman\\Desktop\\pattern-auto-play\\sounds\\16pm.mp3",
+        "17pm": "C:\\Users\\moonman\\Desktop\\pattern-auto-play\\sounds\\17pm.mp3",
+        "18pm": "C:\\Users\\moonman\\Desktop\\pattern-auto-play\\sounds\\18pm.mp3"
     },
     "pattern": {
-        "1-bass": [
-            "bass"
+        "call-8-am": [
+            "ann",
+            "currentTime",
+            "8am"
         ],
-        "2-bass": [
-            "bass", "bass"
+        "call-9-am": [
+            "ann",
+            "currentTime",
+            "9am"
+        ],
+        "call-10-am": [
+            "ann",
+            "currentTime",
+            "10am"
+        ],
+        "call-11-am": [
+            "ann",
+            "currentTime",
+            "11am"
+        ],
+        "call-12-pm": [
+            "ann",
+            "currentTime",
+            "12pm"
+        ],
+        "call-13-pm": [
+            "ann",
+            "currentTime",
+            "13pm"
+        ],
+        "call-14-pm": [
+            "ann",
+            "currentTime",
+            "14pm"
+        ],
+        "call-15-pm": [
+            "ann",
+            "currentTime",
+            "15pm"
+        ],
+        "call-16-pm": [
+            "ann",
+            "currentTime",
+            "16pm"
+        ],
+        "call-17-pm": [
+            "ann",
+            "currentTime",
+            "17pm"
+        ],
+        "call-18-pm": [
+            "ann",
+            "currentTime",
+            "18pm"
         ]
     },
     "table": {
-        "1358": "2-bass",
-        "1359": "1-bass"
+        "0800": "call-8-am",
+        "0900": "call-9-am",
+        "1000": "call-10-am",
+        "1100": "call-11-am",
+        "1200": "call-12-pm",
+        "1300": "call-13-pm",
+        "1400": "call-14-pm",
+        "1500": "call-15-pm",
+        "1600": "call-16-pm",
+        "1700": "call-17-pm",
+        "1800": "call-18-pm"
     }
 }
