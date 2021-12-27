@@ -29,6 +29,7 @@ def playpattern(pattern_name, config):
 
 
 #== start == 
+playsound('pattern-autoplay.mp3')
 config = None 
 if not os.path.exists('config.json'):
     with open('config.json', 'w') as file:
